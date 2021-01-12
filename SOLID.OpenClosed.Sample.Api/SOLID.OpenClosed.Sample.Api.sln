@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.OpenClosed.Sample.Api", "SOLID.OpenClosed.Sample.Api.csproj", "{7D645D69-4A42-4526-A15E-85FE2B3C4D36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.OpenClosed.Sample.Tests", "..\SOLID.OpenClosed.Sample.Tests\SOLID.OpenClosed.Sample.Tests.csproj", "{653711D3-7131-45AF-94B7-303CEF9787DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5BBBA0B5-C7D8-4088-8E98-40F2DD34B21D}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D645D69-4A42-4526-A15E-85FE2B3C4D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D645D69-4A42-4526-A15E-85FE2B3C4D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D645D69-4A42-4526-A15E-85FE2B3C4D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D645D69-4A42-4526-A15E-85FE2B3C4D36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{653711D3-7131-45AF-94B7-303CEF9787DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{653711D3-7131-45AF-94B7-303CEF9787DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{653711D3-7131-45AF-94B7-303CEF9787DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{653711D3-7131-45AF-94B7-303CEF9787DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5464D35D-0DE9-441E-9FBB-7F656A04F889}
+	EndGlobalSection
+EndGlobal
