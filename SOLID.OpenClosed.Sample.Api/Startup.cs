@@ -33,6 +33,7 @@ namespace SOLID.OpenClosed.Sample.Api
             services.AddSingleton<CreditCardPaymentService>();
             services.AddSingleton<DebitCardPaymentService>();
             services.AddSingleton<BankInvoicePaymentService>();
+            services.AddSingleton<PixPaymentService>();
 
             // add factory as singleton with enum/class map
             services.AddSingleton<IPaymentServiceFactory>(provider =>
@@ -42,6 +43,7 @@ namespace SOLID.OpenClosed.Sample.Api
                     { PaymentType.BankInvoice, provider.GetService<BankInvoicePaymentService>() },
                     { PaymentType.CreditCard,  provider.GetService<CreditCardPaymentService>()  },
                     { PaymentType.DebitCard,   provider.GetService<DebitCardPaymentService>()   },
+                    { PaymentType.Pix,         provider.GetService<PixPaymentService>()         },
                 };
 
                 return new PaymentServiceFactory(paymentServices);
