@@ -5,5 +5,6 @@
         CreditCard,
         DebitCard,
         BankInvoice,
+        Pix
     }
 }
